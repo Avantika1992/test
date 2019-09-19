@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/health')
 def health():
-    return "<h1>Connection successful</h1>"
+    return "<h1>Connection successful new</h1>"
 
 
 if __name__ == '__main__':
